@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrCray | Mike Daniel Capua - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">MrCray<span>.exe</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><button class="btn-contact" onclick="location.href='#contact'">Contact</button></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="status-badge">● Open to Internships & Collaborations</div>
+            <h1>Hi, I'm <span class="glitch" data-text="Mike Daniel">Mike Daniel</span>.<br>I build clean, responsive websites.</h1>
+            <p>An unknown Computer Science student passionate about web development, creating responsive websites, and learning new technologies. I enjoy turning ideas into functional and user-friendly digital experiences.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="location.href='#projects'">Explore My Projects</button>
+                <button class="btn-secondary" onclick="location.href='#contact'">Get in Touch</button>
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Me.jpeg" alt="Mike Daniel Capua">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Gamepic.jpeg" alt="MrCray Gaming Persona">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="about-text">
+            <h2 class="section-title">About Me</h2>
+            <p>I am an IT student interested in web development and software technology. I enjoy creating websites using HTML, CSS, and JavaScript while continuously improving my programming skills. I believe that every project is an opportunity to learn, solve problems, and grow as a future IT professional.</p>
+            <p>Right now I am focused on writing clean, well-structured code, building layouts that work on phones, tablets, and desktops, and learning how to publish and maintain projects with Git, GitHub, and Vercel.</p>
+            <p>Outside of coding, you'll usually find me playing tactical shooter games like Rainbow Six Siege (R6) and other FPS titles under the gamertag <strong>MrCray</strong>. I also can't start my coding sessions without a fresh cup of coffee.</p>
+            
+            <div class="coffee-quote">
+                <p class="quote-text">"All I need today is a little bit of coffee and a whole lot of Jesus."</p>
+            </div>
+        </div>
+        
+        <div class="quick-facts glass-panel">
+            <h3>Player Profile</h3>
+            <div class="fact-item">
+                <strong>Name</strong>
+                <span>Mike Daniel E. Capua</span>
+            </div>
+            <div class="fact-item">
+                <strong>Gamertag</strong>
+                <span>MrCray</span>
+            </div>
+            <div class="fact-item">
+                <strong>Age</strong>
+                <span>Unknown</span>
+            </div>
+            <div class="fact-item">
+                <strong>Course</strong>
+                <span>BS Information Technology</span>
+            </div>
+            <div class="fact-item">
+                <strong>Favorite Games</strong>
+                <span>Rainbow Six Siege, FPS / Shooters</span>
+            </div>
+            <div class="fact-item">
+                <strong>Goal</strong>
+                <span>Become a front-end or a game developer</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-subtitle">The tools I use to build and publish my work, and how comfortable I am with each one.</p>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h4>HTML</h4>
+                    <span class="skill-level">Advanced Beginner</span>
+                </div>
+                <p class="skill-desc">Semantic page structure, forms, tables, and accessible markup.</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h4>CSS</h4>
+                    <span class="skill-level">Intermediate</span>
+                </div>
+                <p class="skill-desc">Flexbox, grid, transitions, and responsive layouts with media queries.</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h4>JavaScript</h4>
+                    <span class="skill-level">Beginner</span>
+                </div>
+                <p class="skill-desc">DOM manipulation, events, and simple interactive features.</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 50%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h4>Git & GitHub</h4>
+                    <span class="skill-level">Beginner</span>
+                </div>
+                <p class="skill-desc">Commits, branches, tracking changes, and hosting repositories.</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 60%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <h4>Vercel</h4>
+                    <span class="skill-level">Beginner</span>
+                </div>
+                <p class="skill-desc">Deploying static websites and sharing them with a live link.</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 60%;"></div></div>
+            </div>
+        </div>
+        <p class="currently-learning">Currently learning: responsive design patterns, accessibility, and a JavaScript framework.</p>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+        <h2 class="section-title">Education & Learning Path</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 to Present</div>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>Pambayang Dalubhasaan ng Marilao. Coursework in programming fundamentals, web development, and information technology.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026</div>
+                <h3>Web Development Laboratory Activities</h3>
+                <p>Completed five hands-on activities covering HTML, CSS, forms, tables, transitions, and responsive design.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026</div>
+                <h3>Personal Portfolio Launch</h3>
+                <p>Built and deployed this portfolio using Git, GitHub, and Vercel.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2 class="section-title">Laboratory Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="act1.jpeg" alt="Activity 1 Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3>Activity 1: Interactive Login</h3>
+                    <p>An introductory webpage created using HTML and JavaScript to practice basic elements, DOM manipulation, and event listeners.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="LoginForm.html" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="act2.jpeg" alt="Activity 2 Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3>Activity 2: Async Simulator</h3>
+                    <p>A web development activity focused on JavaScript Promises, setTimeout, and asynchronous loading states to simulate account checking.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Promises</span>
+                    </div>
+                    <a href="any.html" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="act3.jpeg" alt="Activity 3 Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3>Activity 3: DOM Manipulation</h3>
+                    <p>An exercise exploring external CSS stylesheets, transitions, and interactive visual effects using JavaScript to hide/show profiles.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JS Events</span>
+                    </div>
+                    <a href="act.html" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 4 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="act4.jpeg" alt="Activity 4 Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3>Activity 4: jQuery Interactive</h3>
+                    <p>A simple responsive landing page designed to provide a clean layout across different screen sizes using jQuery for interaction.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">jQuery</span>
+                    </div>
+                    <a href="activity.html" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Interested in my work or want to connect? Feel free to reach out. I usually reply within two days.</p>
+                <div class="contact-details">
+                    <a href="mailto:mikecapua@example.com">📧 mikecapua@example.com</a>
+                    <a href="tel:09123456789">📱 0912-345-6789</a>
+                    <a href="https://github.com/MrCray15" target="_blank">💻 github.com/MrCray</a>
+                    <a href="mailto:mkedanielcapua@gmail.com">✉️ Email Me</a>
+                </div>
+            </div>
+            <div class="contact-form glass-panel">
+                <h3>Send me a message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" id="nameInput" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" id="emailInput" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea id="messageInput" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Mike Daniel E. Capua | MrCray. All rights reserved.</p>
+            <p class="footer-subtext">Built with HTML, CSS, and JavaScript.</p>
+            <p><a href="#hero">Back to top &uarr;</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
